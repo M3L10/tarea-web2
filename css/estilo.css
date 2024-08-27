@@ -3,14 +3,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
     background-color: #3ed99e;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 250px;
 }
 
 .circle-set {
@@ -21,15 +21,15 @@ body {
 
 .circle {
     position: absolute;
-    border-radius: 50%;
+    border-radius: 100%;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
 }
 
 .circle1 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     background-color: #ffee00;
 }
 
@@ -40,29 +40,29 @@ body {
 }
 
 .circle3 {
-    width: 120px;
-    height: 120px;
+    width: 350px;
+    height: 350px;
     background-color: #ff00ff;
 }
 
 .circle4 {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background-color: #5c2c3a;
 }
 .circle5 {
-    width: 80px;
-    height: 80px;
+    width: 250px;
+    height: 250px;
     background-color: #a76528; 
 }
 
 .circle6 {
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
     background-color: hwb(61 12% 32%);
 }
 .circle7 {
-    width: 40px;
-    height: 40px;
+    width: 150px;
+    height: 150px;
     background-color: #a72828cd;
 }
